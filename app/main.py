@@ -1,3 +1,9 @@
+"""
+2024.02.20
+Updated main.py file for the Streamlit app.
+Changed the file to use the pickle library instead of pickle5.
+Changed file paths to reflect the new file structure.
+"""
 import streamlit as st
 # import pickle5 as pickle
 import pickle
