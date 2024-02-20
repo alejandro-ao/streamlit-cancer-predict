@@ -1,11 +1,11 @@
 """
 2024.02.20
-Updated main.py file for the Streamlit app.
+Updated main.py file for the Streamlit app to run it on Python 3.12.
 Changed the file to use the pickle library instead of pickle5.
 Changed file paths to reflect the new file structure.
 """
 import streamlit as st
-# import pickle5 as pickle
+# import pickle5 as pickle  # not needed for Python 3.12 and later
 import pickle
 import pandas as pd
 import plotly.graph_objects as go
