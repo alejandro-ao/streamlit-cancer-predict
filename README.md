@@ -10,7 +10,25 @@ A live version of the application can be found on [Streamlit Community Cloud](ht
 
 ## Installation
 
-To run the Cell Image Analyzer locally, you will need to have Python 3.6 or higher installed. Then, you can install the required packages by running:
+You can run this inside a virtual environment to make it easier to manage dependencies. I recommend using `conda` to create a new environment and install the required packages. You can create a new environment called `breast-cancer-diagnosis` by running:
+
+```bash
+conda create -n breast-cancer-diagnosis python=3.10 
+```
+
+Then, activate the environment:
+
+```bash
+conda activate breast-cancer-diagnosis
+```
+
+Then, activate the environment:
+
+```bash
+conda activate breast-cancer-diagnosis
+```
+
+To install the required packages, run:
 
 ```bash
 pip install -r requirements.txt
@@ -22,7 +40,7 @@ This will install all the necessary dependencies, including Streamlit, OpenCV, a
 To start the app, simply run the following command:
 
 ```bash
-streamlit run app.py
+streamlit run app/main.py
 ```
 
 This will launch the app in your default web browser. You can then upload an image of cells to analyze and adjust the various settings to customize the analysis. Once you are satisfied with the results, you can export the measurements to a CSV file for further analysis.
